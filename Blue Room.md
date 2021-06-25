@@ -59,13 +59,13 @@ We're the system account! So we should have full access to the machine now.
 ## Flag Hunting ##
 
 Now I'll search the machine for the flags.
-One was easily found in the root C:\ director:
+One was easily found in the root C:\ directory:
 
 ![image](https://user-images.githubusercontent.com/60744763/123352369-7b00cb80-d5a2-11eb-9b35-438a208b0eb9.png)
 
 There are more hidden around the system.
 The fastest way to find them is with a quick search from the shell.
-I'll use dir flag*.txt /s from the root of C: to see what we get.
+I'll use `dir flag*.txt /s` from the root of C: to see what we get.
 
 ![image](https://user-images.githubusercontent.com/60744763/123352429-979d0380-d5a2-11eb-8aef-253ead294f4f.png)
 
