@@ -9,7 +9,6 @@ My approach will be to use NMAP to discover open ports, looking for an attack ve
 ### Tools
 
 For this CTF I used the following tools:
-
 Kali Linux
 Nmap
 Gobuster
