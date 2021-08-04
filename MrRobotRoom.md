@@ -254,7 +254,5 @@ I can even see the key in the /root folder
 And we’ve got the last flag!
 
 Let’s open a root shell for fun :D
-
-I am (g)root!
 ![image](https://user-images.githubusercontent.com/60744763/128163551-9dca9821-a990-4700-8dcf-2ce92a393d04.png)
-
+I am (g)root!
