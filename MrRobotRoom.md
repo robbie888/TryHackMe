@@ -157,7 +157,8 @@ We get this message about a .zip plugin, let’s try…
 I found this reverse shell plugin code: https://www.sevenlayers.com/index.php/179-wordpress-plugin-reverse-shell 
 
 
-```<?php
+```
+<?php
 
 /**
 * Plugin Name: Reverse Shell Plugin
@@ -224,7 +225,6 @@ The command is: `python -c 'import pty; pty.spawn("/bin/bash")'`
 Then I login as the user robot with `su – robot`, paste in our cracked password AND now I have a shell as the user ‘robot’!
 
 Now I can get our 2nd key (or flag) which we saw earlier, as  we now have permissions to read the file :D
-
 ![image](https://user-images.githubusercontent.com/60744763/128163340-f86b5e94-92d8-4e50-8d28-156a721bdf70.png)
  
 
