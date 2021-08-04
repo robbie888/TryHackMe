@@ -10,3 +10,5 @@ https://github.com/robbie888/TryHackMe/blob/main/Blue%20Room.md
 The 'Baster' room, was a Retro themed CTF
 https://github.com/robbie888/TryHackMe/blob/main/Blaster.md 
 
+The Mr Robot Room was a Mr Robot themed CTF
+https://github.com/robbie888/TryHackMe/blob/main/MrRobotRoom.md
