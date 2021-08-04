@@ -63,7 +63,7 @@ Lets look up this version on searchspoilt…
 
 Some interesting options here to go through. We could try the username enumeration exploit along with the fsocity.dic file we found as a username / password combination. 
 
-We need a username to use the exploit 41963.txt – unauth password reset, so that has to wait. 
+We need a username to use the exploit 41963.txt – unauth password reset, so that has to wait.
 UPDATE: Coming back to this, I went to the reset password page for the username we found in a later step – and it appears the mail service is off, so this exploit is no longer an option. 
 
 Let’s try the first exploit and see if we can get the usernames. 
@@ -72,6 +72,7 @@ I’ll copy the php exploit file to my folder, edit it with the target’s IP, r
 ![image](https://user-images.githubusercontent.com/60744763/128162588-be7c2e29-6e1a-4e7c-a3a2-fc0b136a1731.png)
 
 ![image](https://user-images.githubusercontent.com/60744763/128162611-23ca7b61-957e-4039-ab32-8cc287b9f6dd.png)
+
 As we can see above, the attack didn’t give us any information. 
 
 Now I think we should try a more brutish method… 
@@ -80,6 +81,7 @@ UPDATE: in hindsight, this is a themed CTF, which would have made guessing the u
 
 I’ll go to the wordpress log in page and try some usernames / password combos.
 Admin and user and mrrobot all came back with an error, invalid username.
+
 Maybe we can brute force this to find out a user name? 
 I’ll start with Burp.
 
@@ -91,8 +93,9 @@ I’ll send this to the intruder feature of burp, we’ll select the ‘user_log
 ![image](https://user-images.githubusercontent.com/60744763/128162696-eee5cb1e-5a0f-479d-ad38-b08b2adde595.png)
 
 
-Now load the list we downloaded earlier. 
-First, lets see if there are many duplicates and remove them before running the attack.
+Now load the list we downloaded earlier.
+When loading the list I noticed a lot of duplicates in the dic file, so lets remove them before running the attack.
+
 ![image](https://user-images.githubusercontent.com/60744763/128162745-c047ddc5-64df-4376-9240-be54607789fa.png)
 
 
