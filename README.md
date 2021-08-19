@@ -1,5 +1,10 @@
 # TryHackMe
 TryHackMe CTF write ups
+I started doing some of the training on TryHackMe to compliment my studies in Cyber Security.
+So far I've found this site very useful it has a lot of great tutorials and interesting challenges.
+
+Here I am recording the CTF exercises I have been doing over the time. 
+Doing these has taught me a lot and has been an enjoyable yet challenging experience
 
 My first TryHackMe CTF: Room - Vulnversity
 https://github.com/robbie888/TryHackMe/blob/main/Vulnversity%20Room.md
