@@ -113,6 +113,7 @@ I'll try this user/pass combo with ssh.
 ![fabea57f5cf64b84ba567077887b7e66](https://user-images.githubusercontent.com/60744763/130015020-6cb54aef-6f83-4619-84f8-186b8be68c91.png)
 
 They didn't work, but I might have a username now. So will try to crack it over ssh with the rockyou password list again.
+I used hydra for this attack, but forgot to take a picture! 
 
 I left that run for a while, It didn't seem to produce any results (it's still running!)
 
