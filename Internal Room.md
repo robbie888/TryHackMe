@@ -76,6 +76,14 @@ Here is the password: my2boys
 
 ![1d380d9860f14a8bacdccc699b79e441](https://user-images.githubusercontent.com/60744763/130014836-e9771e61-6101-4699-9d81-10377e0db8c8.png)
 
+Here is the response, i attacked the getUsersBlogs method.
+
+![ef98b6f542a24817814ad3479da67667](https://user-images.githubusercontent.com/60744763/130016093-1951f941-f46d-4fa4-9659-473b9d4648b4.png)
+
+Now i'm in as the wordpress admin console.
+
+![6710bdadaeb240bf8803aab4afd1aa53](https://user-images.githubusercontent.com/60744763/130016191-fb8f6bbf-683a-459e-bc05-9fa76b508d2f.png)
+
 Next I'll try and upload a reverse shell plugin to get shell access to the server.
 
 Our NMAP scan told us the server is linux, so I'll use this plugin I found online.![23f825bc6ed941ae9905773fc410234d](https://user-images.githubusercontent.com/60744763/130014878-4696ff35-aadb-40de-894e-77a83e919534.png)
