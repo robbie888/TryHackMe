@@ -30,5 +30,5 @@ https://github.com/robbie888/TryHackMe/blob/main/Pickle%20Rick%20Room.md
 Internal room - Pen Test Challenge
 https://github.com/robbie888/TryHackMe/blob/main/Internal%20Room.md
 
-A link:
-https://github.com/robbie888/TryHackMe/blob/main/MrRobotRoom/index.md 
+A link: [MrRobotRoom](MrRobotRoom/index.md)
+Another Link: A link: [MrRobotRoom 2](MrRobotRoom.md)
