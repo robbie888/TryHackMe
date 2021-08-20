@@ -15,21 +15,15 @@ Doing these has taught me a lot and has been an enjoyable yet challenging experi
 
 My first TryHackMe CTF: [Vulnversity](Vulnversity%20Room.html)
 
-The next one I tried was the 'Blue' room, attacking a Windows machine
-https://github.com/robbie888/TryHackMe/blob/main/Blue%20Room.md
+The next one I tried was the 'Blue' room, attacking a Windows machine [Blue](https://github.com/robbie888/TryHackMe/blob/main/Blue%20Room.md)
 
 The 'Baster' room, was a Retro themed CTF
-https://github.com/robbie888/TryHackMe/blob/main/Blaster.md 
+[Retro](https://github.com/robbie888/TryHackMe/blob/main/Blaster.md)
 
 The Mr Robot Room was a Mr Robot themed CTF
-https://github.com/robbie888/TryHackMe/blob/main/MrRobotRoom.md
+[Mr Robot](https://github.com/robbie888/TryHackMe/blob/main/MrRobotRoom.md)
 
 The Pickle Rick Room was a Rick & Morty themed web server CTF
-https://github.com/robbie888/TryHackMe/blob/main/Pickle%20Rick%20Room.md
+[Pickle Rock](https://github.com/robbie888/TryHackMe/blob/main/Pickle%20Rick%20Room.md)
 
-Internal room - Pen Test Challenge
-https://github.com/robbie888/TryHackMe/blob/main/Internal%20Room.md
-
-A link: [MrRobotRoom](MrRobotRoom/index.md)
-
-Another Link: A link: [MrRobotRoom 2](MrRobotRoom.md)
+Internal room - Pen Test Challenge [Internal](https://github.com/robbie888/TryHackMe/blob/main/Internal%20Room.md)
