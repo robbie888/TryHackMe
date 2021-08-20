@@ -1,6 +1,8 @@
 # This is a test md file. 
 
-I want to see about uploading images with my editor
+I want to see about uploading images with my editor.
+
+Now for some miss spelt words.  
 
 Here is an image
 
