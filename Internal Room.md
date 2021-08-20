@@ -39,7 +39,7 @@ I had to set a host dns record to internal.thm for the page to load correctly.
 
 ![765c7ffd907c4e9184461d7677e9394a](https://user-images.githubusercontent.com/60744763/130014636-c2013af5-2a59-483d-a241-6ee64bc8af80.png)
 
-The wordpress recover password link advises me if a user name exists. So I could try to enumerate users this way.
+The wordpress recovery password link advises me if a user name exists. So I could try to enumerate users this way.
 
 ![6701422e124d4eb59a828b3187893824](https://user-images.githubusercontent.com/60744763/130014677-19e6560c-847e-4842-907b-36bca5885af8.png)
 
@@ -65,6 +65,8 @@ Using the following post I was able to see what methods are available
 
 ![b1d8db6968714b28ab741b640f01ae10](https://user-images.githubusercontent.com/60744763/130014772-0c40d91c-61e6-4d93-98bd-3d6e9560cb28.png)
 
+## Exploit with password dictionary a attack
+
 Then with the following POST I used the OWASP ZAP Fuzzer feature to brute force the password with the rockyou password list.
 
 ![579b3ed868144868a340a55c130121d4](https://user-images.githubusercontent.com/60744763/130014801-f4a3a992-6a41-4d8b-a794-93bfcb514f74.png)
@@ -83,6 +85,8 @@ Here is the response, i attacked the getUsersBlogs method.
 Now i'm in as the wordpress admin console.
 
 ![6710bdadaeb240bf8803aab4afd1aa53](https://user-images.githubusercontent.com/60744763/130016191-fb8f6bbf-683a-459e-bc05-9fa76b508d2f.png)
+
+## Payload Delivery for a reverse shell
 
 Next I'll try and upload a reverse shell plugin to get shell access to the server.
 
@@ -137,6 +141,8 @@ After trying to load a page the didn't exist, I got a shell from my netcat liste
 
 ![9dd84d4daf074160880d2b1559acb76c](https://user-images.githubusercontent.com/60744763/130015135-1b7546e6-cd57-47c5-a7b4-51eb9a33a0ca.png)
 
+## Flag 1 hunting
+
 First I tried to look around the home folders, but couldn't access much at this stage.
 
 ![4c6618fba1c94f3080421e9b7e978f89](https://user-images.githubusercontent.com/60744763/130015156-5f89244d-879f-4cca-8525-1ae8f0625972.png)
@@ -160,7 +166,11 @@ That was a good find, I am in as a user with ssh now!
 
 ![41f5284313dc464aa08f78c1e285323a](https://user-images.githubusercontent.com/60744763/130015252-36cfae5b-09d0-4e9c-8b33-330d3694350e.png)
 
-Here is the first flag!![f7ada3baad564a3284c659744ba8e433](https://user-images.githubusercontent.com/60744763/130015270-2cac24c7-1138-474d-ae8f-014984c44b6f.png)
+Here is the first flag!
+
+![f7ada3baad564a3284c659744ba8e433](https://user-images.githubusercontent.com/60744763/130015270-2cac24c7-1138-474d-ae8f-014984c44b6f.png)
+
+## Privilege Escalation
 
 That jenkins file also looks interesting
 
@@ -172,6 +182,8 @@ No luck
 
 ![5f1fc37946f443a8ab90070d4e58e041](https://user-images.githubusercontent.com/60744763/130015308-2c499aab-d0d5-4920-9c29-fab23e9774b9.png)
 
+### Jenkins Recon
+
 I'll see what that Jenkins service is, first I'll nc to it.
 
 ![f4c57696272747b6a95dd04169d2c4df](https://user-images.githubusercontent.com/60744763/130015330-f4e7f640-5787-44a6-9595-9f4feed22b3b.png)
@@ -181,6 +193,8 @@ Looks like a http service, I'll ssh and tunnel that 8080 port and see if i can b
 ![5bb0e72cae4f44279986ebced1f74438](https://user-images.githubusercontent.com/60744763/130015348-92a25848-b9ea-433a-94a5-62b024a94a47.png)
 
 ![7cc582a183f64d70a6b5756bdb0ddd44](https://user-images.githubusercontent.com/60744763/130015364-2d4e62f4-45d0-49ef-89f1-d22f28c31644.png)
+
+### Jenkins Password Attack
 
 We have another web portal. I'll try the creds we used for ssh.
 
@@ -215,6 +229,8 @@ I'll disable OWASP now and look around the site to see what looks interesting.
 In the management section there is a script and CLI console, perhaps I can upload a reverse shell then get a shell into the docker container...
 
 ![3f2776da01c149888bbd4d0ddc8a6a69](https://user-images.githubusercontent.com/60744763/130015605-57f94e7a-73bf-450a-b949-241f342467fd.png)
+
+### Jenkins Payload Delivery
 
 The script console uses 'groovy-script' I'll google search if there are any reverse shell scripts online or how to inject OS commands.
 
@@ -252,6 +268,8 @@ In hindsight, I could have just navigated through the server using the Script Co
 ![674a4aff821f4bef98a72d3c84d3f2bf](https://user-images.githubusercontent.com/60744763/130015787-885f8b03-f864-4687-b566-bef837f87760.png)
 
 First I'll try them on the host server with ssh.
+
+## Flag 3 & Root Access to Host
 
 And I'm in as root!
 
