@@ -14,7 +14,7 @@ Doing these has taught me a lot and has been an enjoyable yet challenging experi
 
 My first TryHackMe CTF: Room - [Vulnversity Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Vulnversity%20Room.md)
 
-The next one I tried was the 'Blue' room, attacking a Windows machine [Blue Room](https://github.com/robbie888/TryHackMe/blob/main/Blue%20Room.md)
+The next one I tried was the 'Blue' room, attacking a Windows machine [Blue Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Blue%20Room.md)
 
 The 'Baster' room, was a Retro themed CTF - [Blaster Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Blaster.md)
 
