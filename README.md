@@ -24,3 +24,4 @@ The Pickle Rick Room was a Rick & Morty themed web server CTF [Pickle Rick Room 
 
 Internal room - Pen Test Challenge [Internal Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Internal%20Room.md)
 
+RootMe Room - Simple Website [RootMe Room Write up](RootMe%20Room.md)
