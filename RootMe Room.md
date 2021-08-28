@@ -1,4 +1,4 @@
-#RootMe Room
+# RootMe Room
 
 Another TryHackMe box, we need to try and get root on this device. It appears to be a Linux machine based on the description.
 
