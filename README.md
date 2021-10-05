@@ -1,11 +1,11 @@
 # TryHackMe
 
-My TryHackMe profile: https://tryhackme.com/p/robbie888
+My TryHackMe [profile](https://tryhackme.com/p/robbie888).
 
 I started doing some of the training on TryHackMe to compliment my studies in Cyber Security.
 So far I've found this site very useful it has a lot of great tutorials and interesting challenges.
 
-To date I have completed +20 rooms including training rooms and CTF rooms.
+To date I have completed **+50 rooms** including training rooms and CTF rooms.
 
 Here I am recording some of the CTF exercises I have been doing over the time. 
 Doing these has taught me a lot and has been an enjoyable yet challenging experience.
@@ -16,7 +16,7 @@ The first full path I completed was the Web Fundamentals path. I found this very
 
 Here is the link to my full course write-up: [Web Fundamentals Path](https://github.com/robbie888/OWASP_Top10/tree/master/TryHackMe)
 
-## Write Ups
+## General Write Ups
 
 My first TryHackMe CTF: Room - [Vulnversity Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Vulnversity%20Room.md)
 
