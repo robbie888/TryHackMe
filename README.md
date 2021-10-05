@@ -10,6 +10,12 @@ To date I have completed +20 rooms including training rooms and CTF rooms.
 Here I am recording some of the CTF exercises I have been doing over the time. 
 Doing these has taught me a lot and has been an enjoyable yet challenging experience.
 
+## Paths
+
+The first full path I completed was the Web Fundamentals path. I found this very interesting, it exposed me to a lot of tools and techniques that I'm certain will be useful in the near future :)
+
+Here is the link to my full course write-up: [Web Fundamentals Path](https://github.com/robbie888/OWASP_Top10/tree/master/TryHackMe)
+
 ## Write Ups
 
 My first TryHackMe CTF: Room - [Vulnversity Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Vulnversity%20Room.md)
