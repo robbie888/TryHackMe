@@ -35,3 +35,5 @@ RootMe Room - Simple Website [RootMe Room Write up](RootMe%20Room.md)
 TomGhost Room - A tomcat server [TomGost Room Write up](TomGhost%20Room.md)
 
 Steel Mountain Room - A Mr Robot Themed Windows Server [Steel Mountain Room Write up](Steel%20Mountain.md)
+
+Agent Sudo - A secret server [Agent Sudo - Write up](Agent%20Sudo.md)
