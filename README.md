@@ -5,7 +5,7 @@ My TryHackMe [profile](https://tryhackme.com/p/robbie888).
 I started doing some of the training on TryHackMe to compliment my studies in Cyber Security.
 So far I've found this site very useful it has a lot of great tutorials and interesting challenges.
 
-To date I have completed **48 rooms** including training rooms and CTF rooms.
+To date I have completed **50+ rooms** including training rooms and CTF rooms.
 
 Here I am recording some of the CTF exercises I have been doing over the time. 
 Doing these has taught me a lot and has been an enjoyable yet challenging experience.
@@ -40,4 +40,4 @@ Agent Sudo - A secret server [Agent Sudo - Write up](Agent%20Sudo.md)
 
 Overpass - A password manager [Overpass - Write up](Overpass.md)
 
-Simple CTF - A simple CTF exercise [Simple CTF](Simple%20CTF.md)
+Simple CTF - A simple CTF exercise [Simple CTF - Write up](Simple%20CTF.md)
