@@ -40,4 +40,4 @@ Agent Sudo - A secret server [Agent Sudo - Write up](Agent%20Sudo.md)
 
 Overpass - A password manager [Overpass - Write up](Overpass.md)
 
-Simple CTF - A simple CTF exercise [Simple CTF](simple%20ctf.md)
+Simple CTF - A simple CTF exercise [Simple CTF](Simple%20CTF.md)
