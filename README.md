@@ -24,7 +24,7 @@ The next one I tried was the 'Blue' room, attacking a Windows machine [Blue Room
 
 The 'Baster' room, was a Retro themed CTF - [Blaster Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Blaster.md)
 
-The Mr Robot Room was a Mr Robot themed CTF - [Mr Robot Room Write up](https://github.com/robbie888/TryHackMe/blob/main/MrRobotRoom.md)
+The Mr Robot Room was a Mr Robot themed CTF - [Mr Robot Room Write up](writeups/MrRobotRoom.md)
 
 The Pickle Rick Room was a Rick & Morty themed web server CTF [Pickle Rick Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Pickle%20Rick%20Room.md)
 
