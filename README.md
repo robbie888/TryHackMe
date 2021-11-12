@@ -41,3 +41,5 @@ Agent Sudo - A secret server [Agent Sudo - Write up](Agent%20Sudo.md)
 Overpass - A password manager [Overpass - Write up](Overpass.md)
 
 Simple CTF - A simple CTF exercise [Simple CTF - Write up](Simple%20CTF.md)
+
+Bounty Hacker - A Cowboy Beepop Room [Bounty Hacker - Write up](Bounty%20Hacker.md)
