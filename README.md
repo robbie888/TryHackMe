@@ -18,28 +18,28 @@ Here is the link to my full course write-up: [Web Fundamentals Path](https://git
 
 ## General Write Ups
 
-My first TryHackMe CTF: Room - [Vulnversity Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Vulnversity%20Room.md)
+My first TryHackMe CTF: Room - [Vulnversity Room Write up](writeups/Vulnversity%20Room.md)
 
-The next one I tried was the 'Blue' room, attacking a Windows machine [Blue Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Blue%20Room.md)
+The next one I tried was the 'Blue' room, attacking a Windows machine [Blue Room Write up](writeups/Blue%20Room.md)
 
-The 'Baster' room, was a Retro themed CTF - [Blaster Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Blaster.md)
+The 'Baster' room, was a Retro themed CTF - [Blaster Room Write up](writeups/Blaster.md)
 
 The Mr Robot Room was a Mr Robot themed CTF - [Mr Robot Room Write up](writeups/MrRobotRoom.md)
 
-The Pickle Rick Room was a Rick & Morty themed web server CTF [Pickle Rick Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Pickle%20Rick%20Room.md)
+The Pickle Rick Room was a Rick & Morty themed web server CTF [Pickle Rick Room Write up](writeups/Pickle%20Rick%20Room.md)
 
-Internal room - Pen Test Challenge [Internal Room Write up](https://github.com/robbie888/TryHackMe/blob/main/Internal%20Room.md)
+Internal room - Pen Test Challenge [Internal Room Write up](writeups/Internal%20Room.md)
 
-RootMe Room - Simple Website [RootMe Room Write up](RootMe%20Room.md)
+RootMe Room - Simple Website [RootMe Room Write up](writeups/RootMe%20Room.md)
 
-TomGhost Room - A tomcat server [TomGost Room Write up](TomGhost%20Room.md)
+TomGhost Room - A tomcat server [TomGost Room Write up](writeups/TomGhost%20Room.md)
 
-Steel Mountain Room - A Mr Robot Themed Windows Server [Steel Mountain Room Write up](Steel%20Mountain.md)
+Steel Mountain Room - A Mr Robot Themed Windows Server [Steel Mountain Room Write up](writeups/Steel%20Mountain.md)
 
-Agent Sudo - A secret server [Agent Sudo - Write up](Agent%20Sudo.md)
+Agent Sudo - A secret server [Agent Sudo - Write up](writeups/Agent%20Sudo.md)
 
-Overpass - A password manager [Overpass - Write up](Overpass.md)
+Overpass - A password manager [Overpass - Write up](writeups/Overpass.md)
 
-Simple CTF - A simple CTF exercise [Simple CTF - Write up](Simple%20CTF.md)
+Simple CTF - A simple CTF exercise [Simple CTF - Write up](writeups/Simple%20CTF.md)
 
-Bounty Hacker - A Cowboy Beepop Room [Bounty Hacker - Write up](Bounty%20Hacker.md)
+Bounty Hacker - A Cowboy Beepop Room [Bounty Hacker - Write up](writeups/Bounty%20Hacker.md)
